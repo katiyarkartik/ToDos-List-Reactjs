@@ -1,0 +1,20 @@
+.items {
+  margin-bottom: 150px;
+}
+.content {
+  justify-content: center;
+  background-color: #ececec;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.comp {
+  display: flex;
+  justify-content: center;
+}
+.bttn {
+  width: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
