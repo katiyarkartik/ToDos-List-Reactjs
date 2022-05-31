@@ -8,7 +8,7 @@ import "./Dos.css";
 
 function App() {
   const onDelete = (t) => {
-    console.log("iam onDelete", t);
+  
     setTodos(
       todos.filter((e) => {
         return e !== t;
@@ -17,7 +17,7 @@ function App() {
   };
 
   const addTodo = (title, desc) => {
-    console.log("add", title, desc);
+    
 
     let sno;
     if (todos.length == 0) {

@@ -16,10 +16,6 @@ function dos({ t, onDelete }) {
         >
           Delete
         </button>
-
-        <button className="btn btn-sm btn-success bttn" onClick={complete()}>
-          Completed
-        </button>
       </div>
     </div>
   );
